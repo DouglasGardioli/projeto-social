@@ -19,7 +19,7 @@ main {
     position: relative;
 }
 section#celular {
-    height: 450px;
+    height: 550px;
     width: 300px;
     background-color: blue;
     position: absolute;
@@ -31,8 +31,25 @@ section#celular {
 }
 iframe#home {
     position: relative;
-    top: 58px;
-    left: 55px;
-    width: 190.7px;
-    height: 338px;
+    top: 71px;
+    left: 35px;
+    width: 232px;
+    height: 411px;
+}
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
+    
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover {
+    border: 2px solid  white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 7.5px rgba(0, 0, 0, 0.616);
+    transition: transform 0.3s, border 0.1s;
 }
